@@ -2,16 +2,16 @@
 
 ### 网站参数
 
--intitle: 找到网站HTML代码中含有指定条件的页面。例如：intitle:"login page"将显示具有"login page"的网站页面。
--allintitle: 找到网站HTML代码中所有含有特定参数的页面。例如：allintitle:"login page"
--inurl: 找到网站代码中的超链接URL参数。例如：inurl:"login.php"和inurl:proftpdpasswd
--allinurl: 找到网站代码中所有超链接URL参数。例如：allinurl:"login.php"
--intext: 只搜索网页<body>中包含的文字
--inanchor: 搜索网站锚点内容
--define: 谷歌会根据条件查找相关信息。例如：define:"sql syntax error"
--site: 谷歌会查找指定参数的网站信息。例如：site:hackingnewstutorials.com.
--link: 查找有sql注入漏洞的链接。例如：link:index.php?id= 
--cache: 缓存随时
+- intitle: 找到网站HTML代码中含有指定条件的页面。例如：intitle:"login page"将显示具有"login page"的网站页面。
+- allintitle: 找到网站HTML代码中所有含有特定参数的页面。例如：allintitle:"login page"
+- inurl: 找到网站代码中的超链接URL参数。例如：inurl:"login.php"和inurl:proftpdpasswd
+- allinurl: 找到网站代码中所有超链接URL参数。例如：allinurl:"login.php"
+- intext: 只搜索网页<body>中包含的文字
+- inanchor: 搜索网站锚点内容
+- define: 谷歌会根据条件查找相关信息。例如：define:"sql syntax error"
+- site: 谷歌会查找指定参数的网站信息。例如：site:hackingnewstutorials.com.
+- link: 查找有sql注入漏洞的链接。例如：link:index.php?id= 
+- cache: 缓存随时
 
 
 
@@ -43,9 +43,9 @@ download.php?filepath=
 
 ### 文件参数
 
--filetype: 可以查找指定文件格式。例如：filetype:pdf会查找pdf格式；filetype:txt会查找文本格式。
--intitle: 可以直接查找网站文件目录下的指定文件。例如intitle: index of mp3可以查找mp3文件；intitle:"index of" intext: "movie name" 查找电影名称。
--book: 查找书籍参数。例如：book: java
+- filetype: 可以查找指定文件格式。例如：filetype:pdf会查找pdf格式；filetype:txt会查找文本格式。
+- intitle: 可以直接查找网站文件目录下的指定文件。例如intitle: index of mp3可以查找mp3文件；intitle:"index of" intext: "movie name" 查找电影名称。
+- book: 查找书籍参数。例如：book: java
 
 ### 寻找SQL注入漏洞
 
@@ -402,4 +402,5 @@ inurl:inmotionhosting.com:2096/                                                 
 site:pastebin.com intext:@gmail.com | @yahoo.com | @hotmail.com daterange:2457388-2457491      包含电子邮件和相关密码列表的文件
 inurl:https://pma.                                                                登录门户
 inurl:/Remote/logon?ReturnUrl                                                      /远程/登录ReturnUrl易受攻
+
 

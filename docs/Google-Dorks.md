@@ -11,7 +11,7 @@
 - define: 谷歌会根据条件查找相关信息。例如：define:"sql syntax error"
 - site: 谷歌会查找指定参数的网站信息。例如：site:hackingnewstutorials.com.
 - link: 查找有sql注入漏洞的链接。例如：link:index.php?id= 
-- cache: 缓存随时
+- cache: 缓存
 
 
 
@@ -50,52 +50,89 @@ download.php?filepath=
 ### 寻找SQL注入漏洞
 
 inurl:.php?id=
+
 inurl:.asp?id=
+
 inurl:.aspx?id=
 
 ### 用户名和密码文件参数
 
 intext: passwords filetype: txt
+
 mysql history files
+
 intext: account details filetype: txt
+
 intitle:index.of intext:"secring .skr"|&q…
+
 people.lst
+
 passwd
+
 master.passwd
+
 pwd.db
+
 htpasswd / htpasswd.bak
+
 htpasswd / htgroup
+
 spwd.db / passwd
+
 passwd / etc (reliable)
+
 config.php
+
 passlist
+
 
 ### 查找有漏洞的监控摄像头
 
 inurl:"CgiStart?page="
+
 inurl:/view.shtml
+
 intitle:"Live View / – AXIS
+
 inurl:view/view.shtml
+
 inurl:ViewerFrame?Mode=
+
 inurl:ViewerFrame?Mode=Refresh
+
 inurl:axis-cgi/jpg
+
 inurl:axis-cgi/mjpg (motion-JPEG) (disconnected)
+
 inurl:view/indexFrame.shtml
+
 inurl:view/index.shtml
+
 inurl:view/view.shtml
+
 liveapplet
+
 intitle:"live view" intitle:axis
+
 intitle:liveapplet
+
 allintitle:"Network Camera NetworkCamera" (disconnected)
+
 intitle:axis intitle:"video server"
+
 intitle:liveapplet inurl:LvAppl
+
 intitle:"EvoCam" inurl:"webcam.html"
+
 intitle:"Live NetSnap Cam-Server feed"
+
 intitle:"Live View / – AXIS"
+
 inurl:indexFrame.shtml Axis
 
-### 其他搜集
 
+### 其他搜集
+```
 inurl:Login                                             将返回url中含有Login的网页
 intitle:后台登录管理员                                 将返回含有管理员后台的网页
 intext:后台登录                                         将返回含有后台的网页
@@ -402,5 +439,6 @@ inurl:inmotionhosting.com:2096/                                                 
 site:pastebin.com intext:@gmail.com | @yahoo.com | @hotmail.com daterange:2457388-2457491      包含电子邮件和相关密码列表的文件
 inurl:https://pma.                                                                登录门户
 inurl:/Remote/logon?ReturnUrl                                                      /远程/登录ReturnUrl易受攻
+```
 
 

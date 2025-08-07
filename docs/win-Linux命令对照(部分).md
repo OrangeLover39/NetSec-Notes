@@ -33,8 +33,7 @@ Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
 | `tasklist /im /pid /f`  | `ps x`                | 显示进程信息                                 |
 | `[pass]`                | `top`                 | 实时显示进程                                 |
 | `[pass]`                | `free`                | 内存空间                                     |
-| `[pass]`                | `df`                  | 硬盘空间                                     |
-| `chdisk`                | `du -s`               | 磁盘使用                                     |
+| `diskpart`              | `df || du -s`         | 磁盘使用                                     |
 | `set var=value`         | `export var=value`    | 设置环境变量                                 |
 | `attrib`                | `chown`/`chmod`       | 改变文件权限                                 |
 | `tracert`               | `traceroute`          | 将路由数据包跟踪打印到网络主机               |
@@ -44,4 +43,5 @@ Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
 | `nslookup`              | `nslookup`            | 诊断域名系统 (DNS) 基础结构的信息            |
 | `tree`                  | `ls -R`               | 递归查看目录                                 |
 | `mklink`                | `ln`                  | 创建软链接                                   |
+
 

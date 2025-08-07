@@ -7,23 +7,23 @@ Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
 | Windows                 | Linux                 | 描述                                         |
 | ----------------------- | --------------------- | -------------------------------------------- |
 | `/`                     | `-`                   | 参数标识符                                   |
+| `command /?`            | `man command`         | 展示命令的帮助菜单                           |
 | `dir`                   | `ls -l`               | 查看目录                                     |
 | `ren` \|\| `move`       | `mv`                  | 重命名                                       |
-| `copy`/`xcopy /E`       | `cp`                  | 复制                                         |
+| `copy` \|\|`xcopy /E`   | `cp`                  | 复制                                         |
 | `move`                  | `mv`                  | 移动                                         |
 | `cls`                   | `clear`               | 清屏                                         |
-| `del`/`erase`           | `rm`                  | 删除                                         |
+| `del`\|\|`erase`        | `rm`                  | 删除                                         |
 | `rmdir` \|\| `rd /s /q` | `rm -rf` \|\| `rmdir` | 删除文件夹                                   |
 | `ipconfig`              | `ifconfig`            | 网络信息                                     |
 | `netstat`               | `netstat`             | 网络状态                                     |
 | `chcp`                  | `[pass]`              | 改变字符编码                                 |
 | `where`                 | `find`                | 显示符合搜索模式的文件位置                   |
-| `find`/`findstr`        | `grep`                | 在文件中搜索字符串                           |
-| `command /?`            | `man command`         | 展示命令的帮助菜单                           |
+| `find`\|\|`findstr`     | `grep`                | 在文件中搜索字符串                           |
 | `chdir`                 | `pwd`                 | 显示当前路径                                 |
 | `time`                  | `date`                | 显示当前时间                                 |
 | `cd`                    | `cd`                  | 切换目录                                     |
-| `md` \| `mkdir`         | `mkdir`               | 新建文件夹                                   |
+| `md` \|\| `mkdir`       | `mkdir`               | 新建文件夹                                   |
 | `echo`                  | `echo`                | 打印                                         |
 | `edit`                  | `vi` \|\| `vim`       | 编辑文件                                     |
 | `exit`                  | `exit`                | 退出                                         |
@@ -35,7 +35,7 @@ Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
 | `[pass]`                | `free`                | 内存空间                                     |
 | `diskpart`              | `df` \|\| `du -s`     | 磁盘使用                                     |
 | `set var=value`         | `export var=value`    | 设置环境变量                                 |
-| `attrib`                | `chown`/`chmod`       | 改变文件权限                                 |
+| `attrib`                | `chown`\|\|`chmod`    | 改变文件权限                                 |
 | `tracert`               | `traceroute`          | 将路由数据包跟踪打印到网络主机               |
 | `schtasks`              | `cron`                | daemon to execute scheduled commands         |
 | `type`                  | `cat`                 | 查看文件, 打印文件内容                       |
@@ -43,6 +43,7 @@ Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
 | `nslookup`              | `nslookup`            | 诊断域名系统 (DNS) 基础结构的信息            |
 | `tree`                  | `ls -R`               | 递归查看目录                                 |
 | `mklink`                | `ln`                  | 创建软链接                                   |
+
 
 
 

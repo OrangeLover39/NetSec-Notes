@@ -1,3 +1,9 @@
+参考网页
+
+Windows命令大全: https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands
+
+Linux命令大全: https://www.runoob.com/linux/linux-command-manual.html
+
 | Windows                 | Linux                 | 描述                                         |
 | ----------------------- | --------------------- | -------------------------------------------- |
 | `/`                     | `-`                   | 参数标识符                                   |
@@ -38,3 +44,4 @@
 | `nslookup`              | `nslookup`            | 诊断域名系统 (DNS) 基础结构的信息            |
 | `tree`                  | `ls -R`               | 递归查看目录                                 |
 | `mklink`                | `ln`                  | 创建软链接                                   |
+

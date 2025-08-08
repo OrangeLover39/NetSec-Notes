@@ -15,4 +15,5 @@
 **工具**
 
 - [Nmap中文全参数](docs/Nmap.md)
+- [Nmap脚本](docs/Nmap-script.md)
 - [SQLmap英文源文档](https://github.com/sqlmapproject/sqlmap/wiki/Usage)

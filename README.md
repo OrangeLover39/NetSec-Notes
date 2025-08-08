@@ -10,4 +10,8 @@
 - [渗透测试常用命令](docs/常用命令(持续更新).md)
 - [Windows/Linux命令对照](docs/win-Linux命令对照(部分).md)
 - [谷歌语法搜集](docs/Google-Dorks.md)
+- [信息搜集流程](docs/信息搜集流程.png)
 
+**工具**
+
+- [Nmap中文全参数](docs/Nmap.md)
